@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: url(img/cristiano.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 48px;
+}
+.logo{
+    width: 150px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navigation ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all .6s;
+}
+
+.navigation .search{
+    width: 22px;
+    cursor: pointer;
+    filter: invert(1);
+}
+.navigation .perfil{
+    width: 40px;
+    cursor: pointer;
+}
+
+/*Main*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50em;
+    margin-top: 1.5em;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5em;
+}
+main section .logoBoys{
+    width: 15em;
+    margin: 3em 0;
+}
+main section .btn-box{
+    display: flex;
+    gap: 20px;
+}
+.btn-box .btn{
+        display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 45px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 2em;
+    font-size: 25px;
+    color: white;
+    border-bottom: 4px solid #fff;
+  
+    transition: all .3s;
+
+}
+
+.btn-box .btn:focus{
+    background: #2d3846;
+}
+main section .text{
+    color: #fff;
+    line-height: 45px;
+    text-align: justify;
+}
+
+
+footer .cards{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-left: 23em;
+    margin-top: 1.5em;
+}
+
+
